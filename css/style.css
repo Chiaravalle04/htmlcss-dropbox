@@ -17,6 +17,7 @@ a {
 /* HEADER */
 header {
     height: 100vh;
+    padding-top: 100px;
 }
 /* PRIMA SEZIONE HEADER */
 .header-first-section {
@@ -51,6 +52,36 @@ ul li a {
     padding: 5px;
 }
 
+/* SECONDA SEZIONE HEADER */
+.header-second-section {
+    max-width: 1200px;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+.title-header-second-section {
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container-header-second-section {
+    width: 100%;
+    display: flex;
+}
+
+.text-header-second-section {
+    width: 30%;
+    text-align: center;
+    line-height: 530px;
+}
+
+.content-header-second-section {
+    width: 70%;
+    text-align: center;
+    line-height: 530px;
+}
+
 
 
 
@@ -60,6 +91,7 @@ ul li a {
     background-color: aqua;
 }
 
+/* DEBUG - HEADER - FIRST SECTION */
 .debug .header-first-section {
     background-color: blue;
     border: 2px dashed black;
@@ -75,5 +107,34 @@ ul li a {
 }
 
 .debug ul li a {
+    border: 2px dashed black;
+}
+
+/* DEBUG - HEADER - SECOND SECTION */
+.debug .header-second-section {
+    min-height: 80vh;
+    background-color: chocolate;
+    border: 2px dashed black;
+}
+
+.debug .title-header-second-section {
+    height: 50px;
+    background-color: cornflowerblue;
+    border: 2px dashed black;
+}
+
+.debug .container-header-second-section {
+    border: 2px dashed black;
+}
+
+.debug .text-header-second-section {
+    height: 530px;
+    background-color: darkgoldenrod;
+    border: 2px dashed black;
+}
+
+.debug .content-header-second-section {
+    height: 530px;
+    background-color: crimson;
     border: 2px dashed black;
 }
