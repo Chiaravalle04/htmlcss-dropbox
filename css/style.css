@@ -40,7 +40,7 @@ header {
 }
 
 .header-logo, .header-button {
-    min-width: 7,5%;
+    min-width: 7.5%;
 }
 
 ul {
@@ -48,7 +48,7 @@ ul {
 }
 
 ul li a {
-    min-width: 7,5%;
+    min-width: 7.5%;
     padding: 5px;
 }
 
@@ -80,6 +80,34 @@ ul li a {
     width: 70%;
     text-align: center;
     line-height: 530px;
+}
+
+/* MAIN */
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/* MAIN - FIRST SECTION */
+.container-section-main {
+    width: 100%;
+}
+
+.text-container-main {
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+.first-container-main {
+    width: 100%;
+    display: flex;
+}
+
+.content-container-main {
+    width: 33.33%;
+    text-align: center;
+    line-height: 500px;
 }
 
 
@@ -138,3 +166,25 @@ ul li a {
     background-color: crimson;
     border: 2px dashed black;
 }
+
+/* DEBUG - MAIN */
+.debug main {
+    background-color: darkseagreen;
+}
+/* DEBUG - MAIN - FIRST SECTION */
+.debug .container-section-main {
+    background-color: brown;
+    border: 2px dashed black;
+}
+
+.debug .text-container-main {
+    background-color: tomato;
+    border: 2px dashed black;
+}
+
+.debug .content-container-main {
+    min-height: 500px;
+    border: 2px dashed black;
+    background-color: burlywood;
+}
+
