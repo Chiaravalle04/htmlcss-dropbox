@@ -89,13 +89,13 @@ ul li a {
     padding: 50px 0;
 }
 
-/* MAIN - FIRST SECTION */
 .text-container-main {
     width: 100%;
     text-align: center;
     line-height: 80px;
 }
 
+/* MAIN - FIRST SECTION */
 .first-container-main {
     width: 100%;
     display: flex;
@@ -240,12 +240,12 @@ ul li a {
     background-color: darkseagreen;
 }
 
-/* DEBUG - MAIN - FIRST SECTION */
 .debug .text-container-main {
     background-color: tomato;
     border: 2px dashed black;
 }
 
+/* DEBUG - MAIN - FIRST SECTION */
 .debug .content-container-main {
     min-height: 500px;
     border: 2px dashed black;
