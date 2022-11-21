@@ -177,8 +177,28 @@ ul li a {
     justify-content: space-between;
 }
 
+/* FOOTER */
+footer {
+    padding: 50px;
+}
 
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
 
+.main-container-footer {
+    width: 100%;
+    display: flex;
+}
+
+.content-footer {
+    width: calc(100% / 5);
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* DEBUG */
@@ -302,5 +322,15 @@ ul li a {
 
 .debug .last-container-fifth-section-main {
     background-color: teal;
+    border: 2px dashed black;
+}
+
+/* DEBUG FOOTER */
+.debug footer {
+    background-color: sandybrown;
+}
+
+.debug .content-footer {
+    background-color: slategray;
     border: 2px dashed black;
 }
