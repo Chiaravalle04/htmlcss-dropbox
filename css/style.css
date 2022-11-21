@@ -107,10 +107,6 @@ ul li a {
     line-height: 500px;
 }
 
-.container-section-main {
-    width: 100%;
-}
-
 /* MAIN - SECOND SECTION */
 .second-container-main {
     width: 100%;
@@ -128,6 +124,20 @@ ul li a {
     text-align: center;
     line-height: 400px;
 }
+
+/* MAIN - THIRD SECTION */
+.third-container-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container-main-third {
+    width: 33.33%;
+    text-align: center;
+    line-height: 300px;
+}
+
 
 
 
@@ -190,6 +200,7 @@ ul li a {
 .debug main {
     background-color: darkseagreen;
 }
+
 /* DEBUG - MAIN - FIRST SECTION */
 .debug .text-container-main {
     background-color: tomato;
@@ -224,3 +235,13 @@ ul li a {
     border: 2px dashed black;
 }
 
+/* DEBUG - MAIN - THIRD SECTION */
+.debug .third-container-main {
+    border: 2px dashed black;
+}
+
+.debug .content-container-main-third {
+    min-height: 300px;
+    border: 2px dashed black;
+    background-color: yellow;
+}
