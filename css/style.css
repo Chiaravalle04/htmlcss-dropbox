@@ -21,7 +21,7 @@ a {
 
 h2 {
     font-size: 40px;
-    margin: 50px 0;
+    margin: 0 0 50px 0;
 }
 
 /* HEADER */
@@ -136,6 +136,10 @@ h1 {
 }
 
 /* MAIN - FIRST SECTION */
+#h2-margin-top {
+    margin: 50px 0;
+}
+
 .span-circle {
     margin-right: 30px;
 }
@@ -332,11 +336,18 @@ h1 {
 }
 
 .content-container-main-third {
-    width: 33.33%;
-    text-align: center;
-    line-height: 300px;
+    width: calc(100% / 3);
+    padding: 30px;
 }
 
+.content-container-main-third img {
+    width: 100%;
+}
+
+.content-container-main-third h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
 /* MAIN - FIFTH SECTION */
 .fifth-section-main {
     width: 100%;
