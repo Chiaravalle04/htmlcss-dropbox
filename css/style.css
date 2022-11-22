@@ -507,11 +507,20 @@ h1 {
 /* FOOTER */
 footer {
     padding: 50px;
+    background-color: #000000;
 }
 
 .footer-container {
     max-width: 1200px;
     margin: 0 auto; 
+}
+
+.footer-container hr {
+    width: 95px;
+    height: 2px;
+    color: #828282;
+    margin-left: 70px;
+    margin-bottom: 30px;
 }
 
 .main-container-footer {
@@ -522,135 +531,27 @@ footer {
 .content-footer {
     width: calc(100% / 5);
     min-height: 300px;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    padding-left: 70px;
 }
 
-
-/* DEBUG */
-/* DEBUG - HEADER */
-.debug header {
-    background-color: aqua;
+.content-footer h3 {
+    color: #f5f5f5;
+    margin-bottom: 25px;
 }
 
-/* DEBUG - HEADER - FIRST SECTION */
-.debug .header-first-section {
-    background-color: blue;
-    border: 2px dashed black;
+.content-footer a {
+    color: #f5f5f5;
+    padding: 5px 0;
+    font-size: 13px;
 }
 
-.debug .first-container-header, .debug .second-container-header {
-    background-color: orange;
-    border: 2px dashed black;
+.content-footer a:hover {
+    text-decoration: underline;
 }
 
-.debug .header-logo, .debug .header-button {
-    border: 2px dashed black;
-}
-
-.debug ul li a {
-    border: 2px dashed black;
-}
-
-/* DEBUG - HEADER - SECOND SECTION */
-.debug .header-second-section {
-    background-color: chocolate;
-    border: 2px dashed black;
-}
-
-.debug .container-header-second-section {
-    border: 2px dashed black;
-}
-
-.debug .text-header-second-section {
-    min-height: 50px;
-    background-color: darkgoldenrod;
-    border: 2px dashed black;
-}
-
-.debug .content-header-second-section {
-    min-height: 50px;
-    background-color: crimson;
-    border: 2px dashed black;
-}
-
-/* DEBUG - MAIN */
-.debug main {
-    background-color: darkseagreen;
-}
-
-.debug .text-container-main {
-    background-color: tomato;
-    border: 2px dashed black;
-}
-
-/* DEBUG - MAIN - FIRST SECTION */
-.debug .content-container-main {
-    min-height: 500px;
-    border: 2px dashed black;
-    background-color: burlywood;
-}
-
-.debug .container-section-main {
-    background-color: brown;
-    border: 2px dashed black;
-}
-
-/* DEBUG - MAIN - SECOND SECTION */
-.debug .second-container-main {
-    border: 2px dashed black;
-}
-
-.debug .content-container-main-first {
-    min-height: 400px;
-    background-color: cadetblue;
-    border: 2px dashed black;
-}
-
-.debug .content-container-main-second {
-    min-height: 300px;
-    background-color: thistle;
-    border: 2px dashed black;
-}
-
-/* DEBUG - MAIN - THIRD SECTION */
-.debug .third-container-main {
-    border: 2px dashed black;
-}
-
-.debug .content-container-main-third {
-    min-height: 300px;
-    border: 2px dashed black;
-    background-color: yellow;
-}
-
-/* DEBUG - MAIN - FIFTH SECTION */
-.debug .container-fifth-section-main {
-    background-color: violet;
-    border: 2px dashed black;
-}
-
-.debug .content-fifth-section {
-    background-color: steelblue;
-    border: 2px dashed black;
-}
-
-.debug .main-container-last-fifth-section-main {
-    background-color: aqua;
-}
-
-.debug .last-container-fifth-section-main {
-    background-color: teal;
-    border: 2px dashed black;
-}
-
-/* DEBUG FOOTER */
-.debug footer {
-    background-color: sandybrown;
-}
-
-.debug .content-footer {
-    background-color: slategray;
-    border: 2px dashed black;
+.text-container-footer {
+    padding-left: 70px;
+    color: #f5f5f5;
 }
