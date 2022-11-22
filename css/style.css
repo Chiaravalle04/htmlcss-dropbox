@@ -348,6 +348,16 @@ h1 {
     font-size: 25px;
     margin-bottom: 20px;
 }
+
+/* MAIN - FOURTH SECTION */
+.text-container-main-fourth {
+    width: 60%;
+}
+
+.text-container-main-fourth a {
+    text-decoration: underline;
+}
+
 /* MAIN - FIFTH SECTION */
 .fifth-section-main {
     width: 100%;
