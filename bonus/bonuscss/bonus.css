@@ -508,6 +508,31 @@ h1 {
     margin-left: 30%;
 }
 
+.faq-hover {
+    display: none;
+}
+
+.faq-hover p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.text-container-main-sixth-section:hover .faq-hover {
+    display: block;
+}
+
+.text-container-main-sixth-section:hover .arrow-none {
+    display: none;
+}
+
+.arrow-hover {
+    display: none;
+}
+
+.text-container-main-sixth-section:hover .arrow-hover {
+    display: inline-block;
+}
+
 /* FOOTER */
 footer {
     padding: 50px;
