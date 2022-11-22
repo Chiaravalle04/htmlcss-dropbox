@@ -283,6 +283,7 @@ h1 {
 
 .button-team {
     width: 35%;
+    text-align: end;
 }
 
 .button-team a {
@@ -291,7 +292,6 @@ h1 {
     padding: 10px 10px;
     background-color: #0061ff;
     color: #ffffff;
-    margin-left: 37%;
 }
 
 /* MAIN - SECOND SECTION */
