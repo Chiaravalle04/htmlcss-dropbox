@@ -297,15 +297,31 @@ h1 {
 }
 
 .content-container-main-first {
-    width: 70%;
-    text-align: center;
-    line-height: 400px;
+    width: 60%;
+}
+
+.content-container-main-first img {
+    width: 100%;
 }
 
 .content-container-main-second {
-    width: 30%;
+    width: 40%;
+    padding: 50px 30px;
+}
+
+.content-container-main-second h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.content-container-main-second a {
+    display: inline-block;
     text-align: center;
-    line-height: 400px;
+    padding: 10px 10px;
+    border: 2px solid #828282;
+    background-color: #ffffff;
+    color: #828282;
+    margin-top: 30px;
 }
 
 /* MAIN - THIRD SECTION */
