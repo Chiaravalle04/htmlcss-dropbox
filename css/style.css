@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* FONTS */
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 /* REGOLE GENERALI */
 ul {
     list-style: none;
@@ -31,16 +36,33 @@ header {
     justify-content: space-between;
 }
 
+.header-first-section a {
+    font-size: 15px;
+    color: #828282;
+    padding: 20px 20px;
+}
+
 .first-container-header, .second-container-header {
-    width: 30%;
+    min-width: 30%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header-logo, .header-button {
-    min-width: 7.5%;
+nav a:hover {
+    border-bottom: 2px solid #828282;
+}
+
+.header-button {
+    padding-right: 20px;
+}
+
+.header-button > a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0061ff;
+    color: #ffffff;
 }
 
 ul {
