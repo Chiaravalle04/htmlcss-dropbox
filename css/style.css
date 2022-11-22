@@ -21,8 +21,9 @@ a {
 
 /* HEADER */
 header {
-    height: 100vh;
+    height: 800px;
     padding-top: 100px;
+    background-color: #b4d0e7;
 }
 /* PRIMA SEZIONE HEADER */
 .header-first-section {
@@ -34,12 +35,13 @@ header {
     z-index: 30;
     display: flex;
     justify-content: space-between;
+    background-color: #ffffff;
 }
 
 .header-first-section a {
     font-size: 15px;
     color: #828282;
-    padding: 20px 20px;
+    padding: 23px 20px;
 }
 
 .first-container-header, .second-container-header {
@@ -81,10 +83,8 @@ ul li a {
     margin: 0 auto;
 }
 
-.title-header-second-section {
-    width: 100%;
-    text-align: center;
-    line-height: 50px;
+h1 {
+    font-size: 90px;
 }
 
 .container-header-second-section {
@@ -94,21 +94,40 @@ ul li a {
 
 .text-header-second-section {
     width: 30%;
-    text-align: center;
-    line-height: 530px;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.text-header-second-section > a {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #0061ff;
+    color: #ffffff;
+    margin: 50px 0;
+}
+
+.arrow-down {
+    margin-top: 40px;
+}
+
+.arrow-down i {
+    font-size: 50px;
 }
 
 .content-header-second-section {
     width: 70%;
-    text-align: center;
-    line-height: 530px;
+    padding-top: 60px;
+}
+
+.content-header-second-section img {
+    width: 100%;
 }
 
 /* MAIN */
 .main-container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .text-container-main {
@@ -250,14 +269,7 @@ footer {
 
 /* DEBUG - HEADER - SECOND SECTION */
 .debug .header-second-section {
-    min-height: 80vh;
     background-color: chocolate;
-    border: 2px dashed black;
-}
-
-.debug .title-header-second-section {
-    height: 50px;
-    background-color: cornflowerblue;
     border: 2px dashed black;
 }
 
@@ -266,13 +278,13 @@ footer {
 }
 
 .debug .text-header-second-section {
-    height: 530px;
+    min-height: 50px;
     background-color: darkgoldenrod;
     border: 2px dashed black;
 }
 
 .debug .content-header-second-section {
-    height: 530px;
+    min-height: 50px;
     background-color: crimson;
     border: 2px dashed black;
 }
