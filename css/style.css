@@ -19,6 +19,11 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 40px;
+    margin: 50px 0;
+}
+
 /* HEADER */
 header {
     height: 800px;
@@ -130,22 +135,159 @@ h1 {
     padding: 100px 0;
 }
 
-.text-container-main {
-    width: 100%;
-    text-align: center;
-    line-height: 80px;
+/* MAIN - FIRST SECTION */
+.span-circle {
+    margin-right: 30px;
 }
 
-/* MAIN - FIRST SECTION */
+.circle-blue {
+    font-size: 8px;
+    color: #ffffff;
+    border: 5px solid #0061ff;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.circle {
+    font-size: 15px;
+    color: #ffffff;
+    border: 2px solid #828282;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
 .first-container-main {
     width: 100%;
+    margin-top: 50px;
     display: flex;
+    gap: 30px;
 }
 
 .content-container-main {
-    width: 33.33%;
+    width: calc(100% / 3);
+    border: 2px solid #828282;
+}
+
+.content-container-main h3 {
+    font-size: 13px;
     text-align: center;
-    line-height: 500px;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 2px solid #828282;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 0 20px;
+}
+
+.content-info h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.content-info .price {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content-info .period {
+    font-size: 15px;
+    color: #828282;
+}
+
+.content-info .main-button {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #0061ff;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.content-info span {
+    margin-bottom: 20px;
+}
+
+.content-info span a {
+    text-decoration: underline;
+}
+
+.content-info hr {
+    width: 55px;
+    height: 2px;
+    color: #828282;
+    margin: 20px 0 40px 0;
+}
+
+.content-info h6 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.blue {
+    color: #0061ff;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 50px 0;
+}
+
+.features span {
+    padding: 10px 0;
+}
+
+.text-container-main {
+    width: 100%;
+    margin-top: 30px;
+    border: 2px solid #828282;
+}
+
+.text-container-main h3 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 2px solid #828282;
+}
+
+.content-container-main-team {
+    display: flex;
+    padding: 20px;
+}
+
+.info-team {
+    width: 65%;
+}
+
+.info-team h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.info-team span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.info-team p {
+    margin-top: 40px;
+}
+
+.button-team {
+    width: 35%;
+}
+
+.button-team a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #0061ff;
+    color: #ffffff;
+    margin-left: 37%;
 }
 
 /* MAIN - SECOND SECTION */
